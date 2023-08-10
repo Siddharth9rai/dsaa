@@ -12,7 +12,7 @@ int main()
     {
         cout << "A is negative" << endl;
     }
-    else if (a = 0)
+    else
     {
         cout << "A is zero" << endl;
     }

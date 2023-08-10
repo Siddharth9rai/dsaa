@@ -15,7 +15,7 @@ int main()
         }
         else
         {
-            cout << " prime" << i << endl;
+            cout << " prime " << i << endl;
         }
 
         i = i + 1;

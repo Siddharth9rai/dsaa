@@ -5,15 +5,15 @@ int main()
 {
     char ch;
     cin >> ch;
-    if (ch == 'a' || ch == 'z')
+    if (ch >= 'a' && ch <= 'z')
     {
         cout << "this is lowercase smaller" << endl;
     }
-    else if (ch == 'A' && ch == 'Z')
+    else if (ch >= 'A' && ch <= 'Z')
     {
         cout << "this is upprcase smaller" << endl;
     }
-    else if (ch == '0' && ch == '9')
+    else if (ch >= '0' && ch <= '9')
     {
         cout << "this is number" << endl;
     }
